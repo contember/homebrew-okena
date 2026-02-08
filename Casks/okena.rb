@@ -21,6 +21,11 @@ cask "okena" do
 
   app "Okena.app"
 
+  postflight do
+    system_command "/usr/bin/xattr",
+                   args: ["-cr", "#{appdir}/Okena.app"]
+  end
+
   zap trash: [
     "~/.config/okena",
     "~/Library/Application Support/okena",
