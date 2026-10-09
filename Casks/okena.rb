@@ -5,9 +5,9 @@
 cask "okena" do
   arch arm: "arm64", intel: "x64"
 
-  version "0.33.0"
-  sha256 arm:   "7600a9a5601b6f4fada10e042e5fc7d1746aa038703a8e05a0799573f2fbeff0",
-         intel: "6b3def45b6848155dd82149d6f36f2928a7d17b539fde4aa85e45d7383d5c3c3"
+  version "0.34.0"
+  sha256 arm:   "6c103dabaeaf7745f82eb280d9e463f6c001a088304e695cd7acf1a37cc2de18",
+         intel: "e3ee30eaa4344fb432351771a5d102a6282d2b5d1bb7c528fab596446d11e909"
 
   url "https://github.com/contember/okena/releases/download/v#{version}/okena-macos-#{arch}.zip"
   name "Okena"
